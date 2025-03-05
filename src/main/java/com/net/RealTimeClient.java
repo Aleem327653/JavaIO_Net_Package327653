@@ -33,6 +33,8 @@ class ReadFromServer implements Runnable {
     private BufferedReader serverInput;
 
     public ReadFromServer(BufferedReader serverInput) {
+    	
+    	
         this.serverInput = serverInput;
     }
 
